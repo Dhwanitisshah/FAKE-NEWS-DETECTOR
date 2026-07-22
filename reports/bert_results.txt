@@ -1,0 +1,14 @@
+BERT evaluation (trained/run in Colab)
+
+              precision    recall  f1-score   support
+
+        REAL     0.9986    0.9991    0.9988      4239
+        FAKE     0.9989    0.9983    0.9986      3581
+
+    accuracy                         0.9987      7820
+   macro avg     0.9987    0.9987    0.9987      7820
+weighted avg     0.9987    0.9987    0.9987      7820
+
+Confusion matrix [rows=actual REAL,FAKE / cols=pred REAL,FAKE]:
+[[4235    4]
+ [   6 3575]]
