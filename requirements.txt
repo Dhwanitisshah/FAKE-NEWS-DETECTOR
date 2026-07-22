@@ -1,0 +1,17 @@
+# --- Core (Phases 1–3: data, baseline, app) ---
+pandas
+numpy
+scikit-learn
+spacy
+streamlit
+matplotlib
+seaborn
+jupyter
+
+# --- Explainability (Phase 7) ---
+lime
+shap
+
+# --- BERT (Phase 5) — heavier; you can install these later if the download is slow ---
+transformers
+torch
