@@ -1,0 +1,15 @@
+LSTM evaluation (trained/run in Colab)
+Threshold: 0.5 (FAKE=1)
+
+              precision    recall  f1-score   support
+
+        REAL     0.9892    0.9925    0.9908      4239
+        FAKE     0.9910    0.9872    0.9891      3581
+
+    accuracy                         0.9900      7820
+   macro avg     0.9901    0.9898    0.9900      7820
+weighted avg     0.9900    0.9900    0.9900      7820
+
+Confusion matrix [rows=actual REAL,FAKE / cols=pred REAL,FAKE]:
+[[4207   32]
+ [  46 3535]]
