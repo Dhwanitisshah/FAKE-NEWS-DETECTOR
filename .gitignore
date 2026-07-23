@@ -7,3 +7,6 @@ models/*.pkl
 models/*.pt
 models/*.bin
 .ipynb_checkpoints/
+models/distilbert_fakenews/
+models/*.safetensors
+.claude/

@@ -13,5 +13,5 @@ lime
 shap
 
 # --- BERT (Phase 5) — heavier; you can install these later if the download is slow ---
-transformers
-torch
+#transformers
+#torch
